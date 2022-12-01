@@ -4,8 +4,8 @@ This code is for the Tutorial [Build your own NFT Marketplace from Scratch](http
 
 To set up the repository and run the marketplace locally, run the below
 ```bash
-git clone
-cd NFT-Marketplace-Tutorial
+git clone https://github.com/Abhi2087/abhishek-nft_marketplace.git
+cd abhishek-nft_marketplace
 npm install
 npm start
 ```
