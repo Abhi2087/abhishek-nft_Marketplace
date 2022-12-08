@@ -45,7 +45,7 @@ async function buyNFT(e) {
         const signer = provider.getSigner();
         
         let contract = new ethers.Contract(MarketplaceJSON.address, MarketplaceJSON.abi, signer);
-        const salePrice = ethers.utils.parseUnits(data.price, 'ethers')
+        const salePrice = ethers.utils.parseUnits(data.price, 'ether')
         let transaction = await contract.executeSale(tokenId, {value:salePrice});
         await transaction.wait();
 
