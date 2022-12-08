@@ -36,7 +36,7 @@ async function getNFTData(tokenId) {
     updateData(item);
 }
 
-async function buyNFT(tokenId) {
+async function buyNFT(e) {
     
     try {
         const ethers = require("ethers");
